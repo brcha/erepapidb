@@ -1,0 +1,26 @@
+# Stack uses this directory as scratch space.
+/.stack-work/
+# Stack generates the Cabal file from `package.yaml` through hpack.
+/*.cabal
+
+# This is my setup file containing environment variables (not for git, obviously)
+/.my-setup
+
+# Created by https://www.gitignore.io/api/linux
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# End of https://www.gitignore.io/api/linux
